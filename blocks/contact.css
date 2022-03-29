@@ -1,0 +1,97 @@
+.contact {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 3%;
+    min-height: 740px;
+    background-image: url(../images/contact.jpg);
+}
+
+.contact__overlay {
+    position: absolute;
+    width: 100%;
+    min-height: 740px;
+    background: #2a2c2f;
+    z-index: 1;
+    opacity: 0.3;
+    transition: 0.5s;
+    margin: 0;
+}
+
+.contact:hover .contact__overlay {
+    opacity: 0.8;
+}
+
+.contact__title {
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 1.1;
+    text-align: center;
+    margin: 0;
+    z-index: 2;
+}
+
+.contact__details {
+    list-style-type: none;
+    padding: 0;
+    margin: 3%;
+    z-index: 2;
+}
+
+.contact__detail {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    z-index: 2;
+}
+
+.contact__button {
+    background: #0278FE;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    max-width: 248px;
+    padding: 13px 20px;
+    z-index: 2;
+    transition: background linear 0.3s;
+}
+
+.contact__button:hover {
+    background: #0063D2;
+}
+
+@media screen and (max-width: 768px) {
+    .contact {
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .contact {
+        background-size: contain;
+        min-height: 254px;
+    }
+
+    .contact__overlay {
+        min-height: 254px;
+    }
+
+    .contact__title {
+        font-size: 32px;
+    }
+
+    .contact__detail {
+        font-size: 14px;
+    }
+
+}

@@ -1,0 +1,53 @@
+.intro {
+    padding: 5% 148px;
+}
+
+.intro__title {
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 1.1;
+    max-width: 785px;
+    margin: 0 0 4%;
+}
+
+.intro__paragraph {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.4;
+    max-width: 720px;
+    margin: 0;
+}
+
+.intro__author {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.4;
+    padding-right: calc(100% - 720px);
+    text-align: right;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.intro__paragraph_small {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+    max-width: 720px;
+}
+
+@media screen and (max-width: 768px) {
+    .intro {
+        padding: 88px 3%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro {
+        padding: 64px 16px;
+    }
+
+    .intro__title {
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+}

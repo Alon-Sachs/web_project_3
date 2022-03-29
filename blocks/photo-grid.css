@@ -1,0 +1,19 @@
+.photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    margin: 16px;
+}
+
+.photo-grid__image {
+    max-width: 100%;
+    object-fit: contain;
+    flex-grow: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .photo-grid {
+        margin: 16px;
+    }
+}
