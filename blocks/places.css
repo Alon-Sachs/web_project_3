@@ -9,8 +9,7 @@
     grid-template-rows: auto auto 1fr;
     grid-template-areas: "title artist"
         "image text"
-        "button text"
-    ;
+        "button text";
     row-gap: 8%;
     margin-bottom: 15%;
     column-gap: 4%;
@@ -139,6 +138,7 @@
 
     .place__button {
         order: 2;
+        align-self: center;
     }
 
     .place__artist {
@@ -148,9 +148,5 @@
 
     .place__artist-title {
         margin: 5px 0;
-    }
-
-    .place__button {
-        align-self: center;
     }
 }
