@@ -5,14 +5,16 @@
 
 .place {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto 1fr;
-    grid-template-areas: "title artist"
+    grid-template-areas:
+        "title artist"
         "image text"
         "button text";
     row-gap: 8%;
     margin-bottom: 15%;
     column-gap: 4%;
+    max-width: 100%;
 }
 
 .place__title {
@@ -31,6 +33,7 @@
     grid-area: image;
     max-width: 460px;
     object-fit: contain;
+    margin
 }
 
 .place__artist {
@@ -82,7 +85,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 1.6;
-    margin: 0 0 5%;
+    margin: 0 3% 5% 0;
 }
 
 @media screen and (max-width: 768px) {
