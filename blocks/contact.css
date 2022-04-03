@@ -1,5 +1,5 @@
 .contact {
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
@@ -7,7 +7,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    margin-top: 3%;
+    margin-top: 92px;
     min-height: 740px;
     background-image: url(../images/contact.jpg);
 }
@@ -70,16 +70,10 @@
     background: #0063D2;
 }
 
-@media screen and (max-width: 768px) {
-    .contact {
-        background-size: cover;
-    }
-}
-
 @media screen and (max-width: 320px) {
     .contact {
-        background-size: contain;
         min-height: 254px;
+        margin-top:64px;
     }
 
     .contact__overlay {

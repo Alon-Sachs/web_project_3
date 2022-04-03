@@ -1,7 +1,23 @@
+.footer{
+    margin:92px auto 24px;
+}
+
 .footer__copyrights {
     font-weight: 400;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     text-align: center;
-    margin: 5% 0 2%;
+    margin:0;
+}
+
+@media screen and (max-width: 768px) {
+    .footer{
+        margin-top:88px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer{
+        margin-top:64px;
+    }
 }

@@ -33,11 +33,18 @@
     font-size: 16px;
     line-height: 163%;
     max-width: 720px;
+    margin:0;
 }
 
 @media screen and (max-width: 768px) {
     .intro {
-        padding: 88px 3%;
+        padding: 88px 3% 90px;
+    }
+    .intro__title {
+        margin-bottom:88px;
+    }
+    .intro__author {    
+        margin-bottom: 32px;
     }
 }
 
@@ -49,5 +56,9 @@
     .intro__title {
         font-size: 32px;
         margin-bottom: 40px;
+    }
+    .intro__paragraph {
+        line-height: 1.25;
+        max-width: 288px;
     }
 }
