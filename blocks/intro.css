@@ -1,5 +1,5 @@
 .intro {
-    padding: 5% 148px;
+    margin: 92px 148px 118px;
 }
 
 .intro__title {
@@ -38,10 +38,10 @@
 
 @media screen and (max-width: 768px) {
     .intro {
-        padding: 88px 3% 90px;
+        margin: 88px 24px 90px;
     }
     .intro__title {
-        margin-bottom:88px;
+        margin-bottom:40px;
     }
     .intro__author {    
         margin-bottom: 32px;
@@ -50,7 +50,7 @@
 
 @media screen and (max-width: 320px) {
     .intro {
-        padding: 64px 16px;
+        margin: 64px 16px 90px;
     }
 
     .intro__title {

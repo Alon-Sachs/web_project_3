@@ -10,6 +10,7 @@
     margin-top: 92px;
     min-height: 740px;
     background-image: url(../images/contact.jpg);
+    max-width: 1184px;
 }
 
 .contact__overlay {
