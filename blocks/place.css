@@ -143,6 +143,7 @@
     .place__image {
         max-width: 100%;
     }
+
     .place__button {
         order: 2;
         align-self: center;
@@ -156,47 +157,18 @@
         margin-left: 16px;
         margin-bottom:0;
     }
-
-    .place__artist-title {
-        margin: 5px 0;
-    }
 }
 
 @media screen and (max-width: 320px) {
-    .place {
-        row-gap: 30px;
-    }
-
     .place__title {
-        font-size: 32px;
         max-width: 280px;
-        align-self: flex-start;
-        margin-left: 16px;
-    }
-
-    .place__paragraph {
-        font-size: 16px;
-        margin-left: 16px;
-        margin-right: 16px;
     }
 
     .place__image {
         max-width: 340px;
     }
 
-    .place__button {
-        order: 2;
-        align-self: center;
+    .place__artist-name {
         max-width:288px;
-        padding:13px 40px;
-    }
-
-    .place__artist {
-        align-self: flex-start;
-        margin-left: 16px;
-    }
-
-    .place__artist-title {
-        margin: 5px 0;
     }
 }
